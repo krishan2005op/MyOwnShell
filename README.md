@@ -27,25 +27,6 @@ Features
 
 ------------------------------------------------------------
 
-Project Structure
-
-myshell/
-├── src/
-│   ├── main.c        (REPL loop)
-│   ├── input.c       (input handling)
-│   ├── parser.c      (command tokenization)
-│   ├── executor.c    (fork/exec logic)
-│   └── builtins.c    (built-in and custom commands)
-├── include/
-│   ├── shell.h
-│   ├── parser.h
-│   ├── executor.h
-│   └── builtins.h
-├── Makefile
-└── README.md
-
-------------------------------------------------------------
-
 Build Instructions
 
 Requirements:
